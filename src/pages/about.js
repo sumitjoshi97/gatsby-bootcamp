@@ -1,12 +1,10 @@
 import React from "react"
 
-import Header from "../components/header"
-import Footer from "../components/footer"
+import Layout from "../components/layout"
 
 const AboutPage = () => {
   return (
-    <div>
-      <Header />
+    <Layout>
       <h1>About me</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim dolorum
@@ -14,8 +12,7 @@ const AboutPage = () => {
         repellendus vero praesentium et? Explicabo fuga quisquam doloremque
         nobis aliquam.
       </p>
-      <Footer />
-    </div>
+    </Layout>
   )
 }
 
